@@ -160,7 +160,7 @@ cd thinker/tools && sh install.sh
 Python 3.12.10 | packaged by conda-forge | (main, Apr 10 2025, 22:21:13) [GCC 13.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import linger
->>> 
+>>>
 ```
 支持显示版本信息，即可认为安装成功。
 

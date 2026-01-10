@@ -1,7 +1,7 @@
 
-# 目前支持量化的op列表如下
+# 目前支持量化的 op 列表如下
 
-| PyTorch(float32)   | linger算子名称                            | linger导出onnx算子名称                              | 支持关闭的设置                     |
+| PyTorch(float32)   | linger 算子名称                            | linger 导出 onnx 算子名称                              | 支持关闭的设置                     |
 | ------------------ | ----------------------------------------- | --------------------------------------------------- | ---------------------------------- |
 | nn.BatchNorm2d     | [QBatchNorm2d]                            | QBatchNorm2d                                      | -                                  |
 | nn.LayerNorm2d     | [QLayerNorm2d]                            | QLayerNorm2d                                      | -                                  |

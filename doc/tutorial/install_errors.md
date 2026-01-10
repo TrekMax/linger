@@ -1,5 +1,6 @@
 
 # 推荐环境安装
+
 | Python      | PyTorch    | torchvision | CUDA Runtime | CUDA Toolkit | nvcc | GCC  | NumPy  | ONNX   | onnxruntime |
 | ----------- | ---------- | ----------- | ------------ | ------------ | ---- | ---- | ------ | ------ | ----------- |
 | **3.8**     | **1.9.1**  | 0.10.1      | 11.1         | 11.1         | 11.1 | 7.5  | 1.19.x | 1.10.x | 1.9.x       |
@@ -10,6 +11,7 @@
 
 
 # 常见错误及解决方案
+
 * error while loading shared libraries: libmpfr.so.6: cannot open shared object file: No such file or directory
 * cp libmpfr.so /home4/listenai/miniconda3/envs/linger3.0/lib
 * export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home4/listenai/miniconda3/envs/linger3.0/lib
